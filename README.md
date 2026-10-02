@@ -7,6 +7,10 @@ It observes the event objects that actually exist in the running world and
 creates one owned Zen Map marker for each logical occurrence. It does not alter
 the Central Economy, event lifetimes or loot.
 
+## Steam Workshop
+
+- [Zellno Zen Events](https://steamcommunity.com/sharedfiles/filedetails/?id=3812128941)
+
 ## Tracked events
 
 - Helicrash
