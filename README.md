@@ -75,10 +75,13 @@ are disabled by default. Restart the server after manually editing the file.
 
 ## Requirements
 
-- [CF](https://steamcommunity.com/sharedfiles/filedetails/?id=1559212036)
 - [Zens Core Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3702420204)
 - [Zens Map Enhancement](https://steamcommunity.com/sharedfiles/filedetails/?id=3483440991)
 - Zellno Zen Events must be loaded by both the server and connecting clients.
+
+Zens Map Enhancement and ZenModCore are the addon's direct dependencies. CF is
+a transitive dependency required by ZenModCore and must also be available in
+the server/client mod stack.
 
 ## Installation
 

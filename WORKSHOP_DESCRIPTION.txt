@@ -1,0 +1,92 @@
+[h1]Zellno Zen Events[/h1]
+
+Zellno Zen Events displays active vanilla Chernarus events on Zens Map Enhancement. It detects the event objects that really exist in the world and creates one marker for each logical occurrence.
+
+[h2]Tracked Events[/h2]
+[list]
+[*]Helicrash
+[*]Military Convoy
+[*]Police Car
+[*]Police Situation
+[*]Train Wreck
+[*]Airplane Crates
+[*]Dynamic contaminated areas
+[*]Permanent contaminated areas at Rify and Pavlovo
+[/list]
+
+[h2]Features[/h2]
+[list]
+[*]One marker per logical event occurrence.
+[*]Private administrator-only monitoring.
+[*]Optional global markers for all players.
+[*]Per-administrator visibility preference.
+[*]Personal administrator OFF overrides global ON.
+[*]Persistent configuration across restarts.
+[*]Original clean-room implementation.
+[*]Does not modify the Central Economy or event lifetimes.
+[*]Does not depend on VanillaPlusPlusMap.
+[/list]
+
+[h2]Commands[/h2]
+
+Authorized administrators can use:
+
+[code]!zze
+!zze admin on
+!zze admin off
+!zze global on
+!zze global off
+!zze status admin
+!zze status global[/code]
+
+Commands are handled privately and are not broadcast as ordinary chat messages.
+
+[h2]Server Configuration[/h2]
+
+On first successful server initialization, the mod creates:
+
+[code]$profile:ZellnoZenEvents/ZellnoZenEventsConfig.json[/code]
+
+Add administrator SteamID64 values to [code]AdministratorSteamIds[/code]. Global markers are disabled by default.
+
+[h2]Requirements[/h2]
+[list]
+[*]Zens Core Mod / ZenModCore — Workshop ID 3702420204
+[*]Zens Map Enhancement — Workshop ID 3483440991
+[*]The mod must be loaded by both the server and connecting clients.
+[/list]
+
+Zens Map Enhancement and ZenModCore are the direct dependencies. CF is required transitively by ZenModCore and must also be available in the server/client mod stack.
+
+[h2]Installation[/h2]
+
+Load the dependencies first, then Zellno Zen Events in the client-visible server mod list. Copy the included public key to the server keys directory.
+
+No wipe or mission reset is required.
+
+[h2]Source Code[/h2]
+
+[url=https://github.com/Zellno/ZellnoZenEvents]GitHub — Zellno Zen Events[/url]
+
+The repository contains original source and documentation. Compiled PBOs, signatures, keys, private profiles and hosting data are not distributed through GitHub.
+
+[h2]Support the Project[/h2]
+
+[url=https://www.buymeacoffee.com/noobopensource]Buy Me a Coffee — Noob Open Source[/url]
+
+[h1]OFFICIAL MOD SUPPORT[/h1]
+
+[url=https://discord.gg/bhfBetKtqr]Zellno Mod Support — Discord[/url]
+
+[h2]Monetization Permission[/h2]
+
+Zellno permits the use of Zellno Zen Events on monetized DayZ servers, provided that the server operator is registered, approved and listed under Bohemia Interactive's DayZ Server Monetization program and complies with all applicable rules.
+
+[list]
+[*][url=https://www.bohemia.net/monetization]Official monetization rules[/url]
+[*][url=https://www.bohemia.net/monetization/approved/dayz]Approved DayZ servers[/url]
+[/list]
+
+[h2]Disclaimer[/h2]
+
+This is an unofficial community modification for DayZ. It is not affiliated with, authorized by, or endorsed by Bohemia Interactive a.s. DAYZ is a registered trademark of Bohemia Interactive a.s.

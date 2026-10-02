@@ -1,0 +1,10 @@
+name = "Zellno Zen Events";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "Active vanilla Chernarus events on Zen Map";
+overview = "Displays active vanilla Chernarus events on Zens Map Enhancement with private administrator and optional global visibility controls.";
+action = "https://github.com/Zellno/ZellnoZenEvents";
+author = "Zellno / Noob Open Source";
+version = "0.1.0";

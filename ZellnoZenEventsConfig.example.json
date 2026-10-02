@@ -1,0 +1,10 @@
+{
+    "ConfigVersion": 2,
+    "Enabled": true,
+    "VisibilityMode": "AdministratorsOnly",
+    "GlobalMarkersEnabled": false,
+    "AdministratorSteamIds": [
+        "76561198000000001"
+    ],
+    "AdministratorPreferences": []
+}
