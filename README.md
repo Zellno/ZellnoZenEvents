@@ -126,6 +126,23 @@ This repository contains original source and documentation. It does not
 distribute compiled PBOs, signatures, keys, private server profiles or hosting
 data.
 
+## Monetization Permission
+
+Zellno permits the use of Zellno Zen Events on monetized DayZ servers, provided
+that the server operator is registered, approved and listed under Bohemia
+Interactive's DayZ Server Monetization program and complies with all applicable
+rules.
+
+This permission applies only to the original content provided by Zellno in
+Zellno Zen Events. It does not grant permission to monetize DayZ itself or any
+third-party modification or content used alongside this mod.
+
+Server operators are responsible for obtaining any additional permissions
+required by the authors of other mods installed on their servers.
+
+- [Official monetization rules](https://www.bohemia.net/monetization)
+- [Approved DayZ servers](https://www.bohemia.net/monetization/approved/dayz)
+
 ## Support
 
 - [Zellno Mod Support — Discord](https://discord.gg/bhfBetKtqr)
